@@ -31,9 +31,9 @@ namespace fukuv0615
                 ans = rand.Next(101);
             }
             else if (guess < ans)
-                MessageBox.Show("Less");
+                MessageBox.Show("Greater");//C³‰ÓŠ
             else if (guess > ans)
-                MessageBox.Show("Greater");
+                MessageBox.Show("Less");//C³‰ÓŠ
         }
     }
 }
